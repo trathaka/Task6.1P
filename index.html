@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <title>Deakin Newsletter Signup</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="signup-form">
+        <form action="/" method="post">
+
+            <h4>Requester Registration</h4>
+            <h4>Create an iCrowdTask Account</h4>
+            <hr>
+
+            <div class="form-group">
+                <label for="sel1">Country of residence*</label>
+                <select class="form-control" id="sel1" name="country" required="required">
+                    <option selected>Choose from list</option>
+                    <option>Australia</option>
+                    <option>Japan</option>
+                    <option>France</option>
+                    <option>South Africa</option>
+                </select>
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                    <label for="sel1">First name*</label>
+                    <input type="text" class="form-control" name="first_name" required="required">
+                </div>
+                <div class="col">
+                    <label for="sel1">Last name*</label><input type="text" class="form-control" name="last_name"
+                        required="required"><br>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label for="sel1">Email*</label>
+                <input type="email" class="form-control" name="email" required="required">
+            </div>
+            <div class="form-group">
+                <label for="sel1">Password*</label>
+                <input type="password" class="form-control" name="password" required="required">
+            </div>
+            <div class="form-group">
+                <label for="sel1">Confirm password*</label>
+                <input type="password" class="form-control" name="confirmpassword" required="required">
+            </div>
+            <div class="form-group">
+                <label for="sel1">Address*</label>
+                <input type="text" class="form-control" name="address" required="required">
+                <input type="text" class="form-control" name="address2">
+            </div>
+
+
+
+            <div class="row">
+                <div class="col">
+                    <label for="sel1">City*</label>
+                <input type="text" class="form-control" name="city" required="required">
+                </div>
+                <div class="col">
+                    <label for="sel1">State, Province or Region*</label>
+                <input type="text" class="form-control" name="state" required="required"><br>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="sel1">ZIP / Postal code</label>
+                <input type="text" class="form-control" name="zip">
+            </div>
+
+            <div class="form-group">
+                <label for="sel1">Mobile phone number</label>
+                <input type="text" class="form-control" name="phone">
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-lg btn-primary btn-block">Create Account</button>
+            </div>
+        </form>
+        <!-- <div class="hint-text">Already have an account? <a href="#">Login here</a></div> -->
+        <!-- <div class="form-group">
+		<img src="image/logo.png" alt="Deakin" width="200" length="200">
+	</div> -->
+    </div>
+</body>
+
+</html>
